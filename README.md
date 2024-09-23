@@ -1,12 +1,16 @@
-# EP-390-Game Controller Musical Instrument
- # Development Journal
+# Development Journal
 
 - **Instrument Patch Design for PS5 DualSense Game Controller:**
   - The **X button** is used to generate a **Sine wave Kick** signal.
   - The **O button** is used to generate a **Sine wave Snare** signal.
   - The **□ button** is used to generate a **Sine wave Hi-Hat** signal.
   - The **right trigger** controls the generation of a sine wave signal with a fast attack and release through the pressure sensing of this trigger.
-  - The **left X control** is used to control the high and low pitch frequency of the signal.
+  - The **left joystick** is used to control the high and low pitch frequency of the signal.
+
+- **Update:**
+  - Added elements of a **Sequencer** and a **new drum kit**.
+  - By holding the **up and down buttons** on the DualSense controller, you can activate the **Sequencer for the Sine Wave drum machine**.
+  - By holding the **left and right buttons**, you can activate the **Sequencer for the regular drum machine**, where you can also play custom single notes within the Sequencer.
 
 - **Control Breakdown:**
   - The pressure sensor of the **right trigger** controls the frequency of the trigger signal from low to high.
@@ -25,8 +29,9 @@
      - The **O button** generates a **Sine wave Snare** signal.
      - The **□ button** generates a **Sine wave Hi-Hat** signal.
      - The **right trigger** controls the generation of a sine wave signal with a fast attack and release through the pressure sensing of this trigger.
-     - The **left X control** is used to manage the high and low pitch frequency of the signal.
+     - The **joystick** is used to manage the high and low pitch frequency of the signal.
+     - By holding the **up and down buttons**, you can activate the **Sequencer for the Sine Wave drum machine**.
+     - By holding the **left and right buttons**, you can activate the **Sequencer for the regular drum machine**.
 
 - **Usage Instructions:**
   - You can use this instrument anywhere as a **texture layer** in your music.
-
